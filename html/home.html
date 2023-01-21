@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Freelancer</title>
+    <link rel="stylesheet" href="/Layout/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/js/bootstrap.min.js">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logtipo">
+            <h1>Logo</h1> <!--String ou imagem-->
+        </div>
+            <div>
+                <nav class="navi-container">
+                    <a href="home.html"><button class="nav-btn"><strong>Inicio</strong></button></a>
+                    <a href="#quemSou"><button class="nav-btn"><strong>Quem sou</strong></button></a>
+                    <a href="#servicos"><button class="nav-btn"><strong>Serviços</strong></button></a>
+                    <a href="#projetos"><button class="nav-btn"><strong>Projetos</strong></button></a>
+                    <a href="#parceiros"><button class="nav-btn"><strong>Parceiros</strong></button></a>
+                    <a href="#contato"><button class="nav-btn"><strong>Contato</strong></button></a>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <div class="corpo">
+                
+        <div class="Intro">
+            <div class="intro-image-container">
+                <img src="/imagens/photoMe.png" class="img-thumbnail" alt="...">
+            </div>
+            <div class="intro-info">
+                <div class="intro-title">
+                    <h3><strong>Olá, meu nome é +name+</strong></h3>
+                </div>
+                <div class="intro-body">
+                    <div class="intro-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas, aliquid inventore tempora ipsam adipisci mollitia fuga ipsa pariatur obcaecati autem beatae! Autem rerum provident officia voluptatum cupiditate perspiciatis esse!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="quemSou">
+            <br><br><br><br><br>
+            <div  class="quemSou">
+                <div class="intro-quemSou">
+                    <div class="quemSou-title">
+                        <h3><strong>Quem sou</strong></h3>
+                    </div>
+                    <div class="quemSou-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla mollitia rem atque, nam, quod quae veritatis, dignissimos id vitae dolorem sint molestias ab vero consequuntur dolor tempore nisi animi dolorum.</p>
+                    </div>
+                </div>
+                <div class="tecnologias-quemSou"> <!--Precisd passar as tecnologias e as %-->
+                    <ul>
+                        <div>
+                          <li>Tecnologia 01</li>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">85%</div>
+                          </div>
+                        </div>
+                        <div>
+                            <li>Tecnologia 02</li>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
+                            </div>
+                        </div>
+                        <div>
+                            <li>Tecnologia 03</li>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                          </div>
+                          <div>
+                            <li>tecnologia 04</li>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                          </div>
+                          <div>
+                            <li>Tecnologia 05</li>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+                            </div>
+                          </div>
+                          <div>
+                            <li>Tecnologia 06</li>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>
+                          </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="servicos">
+            <br><br><br><br><br>
+            <div  class="servico-container">
+                <div class="servico-title">
+                    <h3><strong>Serviços</strong></h3>
+                </div>
+                <div class="servico-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veritatis, ab sequi rem dignissimos modi alias aliquid aspernatur odio minima magnam nisi atque possimus obcaecati soluta. Vero blanditiis doloremque at!</p>
+                </div>
+                <div class="servico-list">
+                    <ul>
+                        <div class="servico">
+                            <div>
+                                <p class="list-servico" id="lists1" onclick="showServico01()">Serviço 01</p>
+                                 
+                                <div id="servico01"></div>
+                            </div>
+                        </div>
+                        <div class="servico">
+                            <p class="list-servico" id="lists2" onclick="showServico02()">Serviço 02</p>
+                            <div id="servico02"></div>
+                        </div>
+                        <div class="servico">
+                            <p  class="list-servico" id="lists3" onclick="showServico03()">Serviço 03</p>
+                            <div id="servico03"></div>
+                        </div>
+                        <div class="servico">
+                            <p  class="list-servico" id="lists4" onclick="showServico04()">Serviço 04</p>
+                            <div id="servico04"></div>
+                        </div>
+    
+                    </ul>
+    
+                </div>
+            </div>
+        </div>
+        <div id="projetos">
+            <br><br><br><br><br>
+            <div  class="projetos">
+                <div class="projetos-container">
+                    <div class="projeto-title">
+                        <h3><strong>Projetos desenvolvidos</strong></h3>
+                    </div>
+                    <div class="projeto-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quo voluptatem reprehenderit voluptates molestiae ratione necessitatibus, exercitationem, repellat voluptas iste adipisci doloribus! Iste unde consequuntur adipisci magni quod reprehenderit laborum.</p>
+                    </div>
+                    <div>
+                        <img class="projeto-images" src="/imagens/Serviços/Marin.png" alt="">
+                        <img class="projeto-images" src="/imagens/Serviços/Marin.png" alt="">
+                        <img class="projeto-images" src="/imagens/Serviços/Marin.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="parceiros">
+            <br><br><br><br><br>
+            <div  class="parceiros-container">
+                <div class="parceiros-title">
+                    <h3><strong>Nossos parceiros</strong></h3>
+                </div>
+                <div class="parceiros-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius placeat fuga inventore! Id ex rem distinctio eum impedit consequuntur alias quas sequi magni laudantium labore nisi, itaque ut molestiae veniam.</p>
+                </div>
+                <div class="parceiros-images">
+                    <img class="parceiro-image1" src="/imagens/Parceiros/EduardoMarin.png" alt="" srcset="">
+                    <img class="parceiro-image1" src="/imagens/Parceiros/EduardoMarin.png" alt="" srcset="">
+                    <img class="parceiro-image1" src="/imagens/Parceiros/EduardoMarin.png" alt="" srcset="">
+                    <img class="parceiro-image1" src="/imagens/Parceiros/EduardoMarin.png" alt="" srcset="">
+                    <img class="parceiro-image1" src="/imagens/Parceiros/EduardoMarin.png" alt="" srcset="">
+                    <img class="parceiro-image1" src="/imagens/Parceiros/EduardoMarin.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+        </div> 
+    </main>
+
+    <footer id="contato" class="rodape">
+        <div class="rodape-container">
+            <div>
+                <h1>Logo</h1>
+            </div>
+            <div>
+                <h3><strong>Contato</strong></h3>
+                <h5>email@email.com</h5>
+                
+                <h5>(DDD)91234-5678</h5>
+            </div>
+            <div class="social-container">
+                <h3><strong>Redes Sociais</strong></h3>
+                <img class="social-image" src="/imagens/linkedin.png" alt="">
+                <img class="social-image" src="/imagens/linkedin.png" alt="">
+                <img class="social-image" src="/imagens/linkedin.png" alt="">
+                <img class="social-image" src="/imagens/linkedin.png" alt="">
+                <img class="social-image" src="/imagens/linkedin.png" alt="">
+            </div>
+
+        </div>
+        <div class="dev-container">
+            <h6>Portfólio desenvolvido por</h6>
+            <img class="mkt-dev" src="/imagens/Parceiros/LogoEduardoMarin.png" alt="">
+        </div>
+    </footer>
+
+
+    
+    <script src="/JavaScript/app.js"></script>
+</body>
+</html>

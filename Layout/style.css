@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(52, 87, 48)!important;
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace !important; /* fonte parametrizável*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgb(5, 19, 3);  
+    width: 10%;
+    height: 100%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 15px 50px;
+    opacity: 0.7;
+    border: 2px solid rgb(5, 255, 5);
+    box-shadow: 0px 0px 5px rgb(5, 255, 5),0px 0px 5px rgb(5, 255, 5);
+}
+
+.nav-btn {
+    background-color: rgb(5, 19, 3);  
+    color: white;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+button::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: rgb(0, 255, 0); /* Parametrizável*/
+    transition: width .3s ease-in;
+  }
+  
+  button:hover::after {
+    width: 100%;
+  }
+
+main {
+    padding: 50px;
+    
+}
+
+.corpo {
+    background-color: rgb(5, 19, 3);  
+    width: 95%;
+    margin-left: 100px;
+    border: 2px solid rgb(5, 255, 5);
+    -webkit-box-shadow: 2px 2px 13px 16px rgb(0, 0, 0);
+    -moz-box-shadow: 2px 2px 13px 16px rgba(0,0,0,1);
+    box-shadow: 2px 2px 13px 16px rgb(0, 0, 0);
+    border-radius: 15px 50px;
+    padding: 30px;
+    /* Background parametrizável*/
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.intro-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-thumbnail {
+    width: 300px;
+    transition: .5s;
+    border: none;
+}
+
+.intro-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    line-height: 40px;
+}
+
+.quemSou-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.quemSou-body {
+    line-height: 40px;
+}
+
+.tecnologias-quemSou { 
+    line-height: 50px;
+    width: 90%; 
+}
+
+.servico-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.servico-body {
+    line-height: 40px;
+}
+
+.servico {
+    line-height: 80px;
+}
+
+.projetos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projeto-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.projeto-body {
+    line-height: 40px;
+}
+
+.projeto-images { /* Parametrizável*/
+    width: 200px; 
+    margin: 70px;
+
+    
+}
+
+
+.servico  {
+    margin: 30px;
+    width: auto;
+
+}
+
+.list-servico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px; /*Parametrizavel*/
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px 30px;
+    color: rgb(103, 156, 255);
+   font-weight: bold;
+   transition: .2s;
+   cursor: pointer;
+
+}
+
+.list-servico:hover {
+    text-shadow: 0px 0px 5px blue,0px 0px 5px rgb(223, 4, 150);
+    background-color: #201818;
+
+}
+
+.parceiros-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.parceiros-body {
+    line-height: 40px;
+}
+
+.parceiros-images {
+width: auto;
+
+}
+
+.parceiro-image1 {
+    width: 300px;
+}
+
+.rodape {
+    background-color: rgb(5, 19, 3); 
+    width: 88%;
+    margin-left: 150px;
+    border: 2px solid rgb(5, 255, 5);
+    -webkit-box-shadow: 2px 2px 13px 16px rgb(0, 0, 0);
+    -moz-box-shadow: 2px 2px 13px 16px rgba(0,0,0,1);
+    box-shadow: 2px 2px 13px 16px rgba(0,0,0,1);
+    border-radius: 15px 50px;
+    padding: 30px;
+}
+
+.rodape-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.contato-image {
+    width: 40px;
+}
+
+.social-container {
+    margin-top: -30px;
+}
+
+.social-image {
+    width: 40px;
+}
+
+.mkt-dev{
+    width: 200px;
+}
+
+.dev-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid white;
+   margin-top: 50px;
+   background-color: #000000;
+}
