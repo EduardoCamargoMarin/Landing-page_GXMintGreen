@@ -192,7 +192,7 @@ main {
 
 .servico  {
     margin: 30px;
-    width: auto;
+    width: 100%;
 
 }
 
@@ -200,10 +200,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px; /*Parametrizavel*/
-    border: 2px solid rgb(0, 0, 0);
+    flex-direction: row;
+    width: 100%; /*Parametrizavel*/
+    border: 2px solid rgb(3, 117, 3);
     border-radius: 15px 30px;
-    color: rgb(103, 156, 255);
+    color: rgb(0, 255, 42);
    font-weight: bold;
    transition: .2s;
    cursor: pointer;
@@ -212,7 +213,7 @@ main {
 
 .list-servico:hover {
     text-shadow: 0px 0px 5px blue,0px 0px 5px rgb(223, 4, 150);
-    background-color: #201818;
+    background-color: #182018;
 
 }
 

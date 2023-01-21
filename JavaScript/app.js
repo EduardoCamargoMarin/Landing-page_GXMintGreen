@@ -15,7 +15,7 @@ function showServico01() {
     else {
         document.getElementById('servico01').innerHTML = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi corporis tenetur at qui aut maiores quod id itaque doloribus obcaecati a aliquam officiis, assumenda, voluptas et dolore numquam cupiditate quibusdam.'
         document.getElementById('servico01').style.lineHeight = '30px'
-        document.getElementById('servico01').style.borderBottom = '2px solid black'
+        document.getElementById('servico01').style.borderBottom = '2px solid green'
 
         return list01 = 1
     }
@@ -34,7 +34,7 @@ function showServico02() {
     else {
         document.getElementById('servico02').innerHTML = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi corporis tenetur at qui aut maiores quod id itaque doloribus obcaecati a aliquam officiis, assumenda, voluptas et dolore numquam cupiditate quibusdam.'
         document.getElementById('servico02').style.lineHeight = '30px'
-        document.getElementById('servico02').style.borderBottom = '2px solid black'
+        document.getElementById('servico02').style.borderBottom = '2px solid green'
 
         return list02 = 1
     }
@@ -53,7 +53,7 @@ function showServico03() {
     else {
         document.getElementById('servico03').innerHTML = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi corporis tenetur at qui aut maiores quod id itaque doloribus obcaecati a aliquam officiis, assumenda, voluptas et dolore numquam cupiditate quibusdam.'
         document.getElementById('servico03').style.lineHeight = '30px'
-        document.getElementById('servico03').style.borderBottom = '2px solid black'
+        document.getElementById('servico03').style.borderBottom = '2px solid green'
 
         return list03 = 1
     }
@@ -72,7 +72,7 @@ function showServico04() {
     else {
         document.getElementById('servico04').innerHTML = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi corporis tenetur at qui aut maiores quod id itaque doloribus obcaecati a aliquam officiis, assumenda, voluptas et dolore numquam cupiditate quibusdam.'
         document.getElementById('servico04').style.lineHeight = '30px'
-        document.getElementById('servico04').style.borderBottom = '2px solid black'
+        document.getElementById('servico04').style.borderBottom = '2px solid green'
 
         return list04 = 1
     }
